@@ -8,6 +8,10 @@ void tearDown(){}
 void test_add()
 {
     TEST_ASSERT_EQUAL(10, add(5,5));
+    
+}
+void test_add_fail()
+{
     TEST_ASSERT_EQUAL(1, add(5,5));
 }
 void test_sub()
@@ -19,6 +23,7 @@ int main()
 {
     UNITY_BEGIN();
     RUN_TEST(test_add);
+    RUN_TEST(test_add_fail);
     RUN_TEST(test_sub);
     return UNITY_END();
 }
