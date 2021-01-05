@@ -1,4 +1,5 @@
-SRC = *.c\
+SRC = test.c\
+calc.c\
 Unity/unity.c\
 
 INC = calc.h\
