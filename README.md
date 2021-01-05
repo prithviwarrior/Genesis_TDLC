@@ -9,5 +9,7 @@
 
 ![Valgrind](https://github.com/prithviwarrior/Genesis_TDLC/workflows/Valgrind/badge.svg)
 
+![Unit testing](https://github.com/prithviwarrior/Genesis_TDLC/workflows/Unit%20testing/badge.svg)
+
 
 
