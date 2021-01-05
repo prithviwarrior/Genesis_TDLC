@@ -9,6 +9,6 @@ int multi(int a, int b);
 
 int dollar(int a);
 int rupees(int a);
-
+int Dec(hex);
 
 #endif
