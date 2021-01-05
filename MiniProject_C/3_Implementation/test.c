@@ -177,7 +177,10 @@ void rupees()
     TEST_ASSERT_EQUAL(76.92, rupees(5000));
 }
 
-
+int Dec()
+{
+    TEST_ASSERT_EQUAL(26,Dec(1a));
+}
 void test_divide(void) {
 
 
