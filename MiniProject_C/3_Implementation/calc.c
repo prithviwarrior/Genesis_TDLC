@@ -9,10 +9,23 @@ int sub(int a, int b)
 {
 	return a-b;
 }
+
 int multi(int a, int b)
 {
 	return a*b;
 }
+
+int dollar(int a)
+{
+    return a*65;
+}
+
+int rupees(int a)
+{
+	return a/65;
+}
+
+
 /*
 int main()
 {

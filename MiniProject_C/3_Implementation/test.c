@@ -15,6 +15,18 @@ void subtract()
 {
     TEST_ASSERT_EQUAL(3, sub(5,2));
 }
+void multi()
+{
+    TEST_ASSERT_EQUAL(10, multi(5,2));
+}
+void dollar()
+{
+    TEST_ASSERT_EQUAL(1885.00, dollar(29));
+}
+void rupees()
+{
+    TEST_ASSERT_EQUAL(76.92, rupees(5000));
+}
 
 
 int main()
