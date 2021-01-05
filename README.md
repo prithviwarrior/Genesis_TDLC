@@ -7,5 +7,7 @@
 
 ![cppcheck-action](https://github.com/prithviwarrior/Genesis_TDLC/workflows/cppcheck-action/badge.svg?branch=main)
 
+![Valgrind](https://github.com/prithviwarrior/Genesis_TDLC/workflows/Valgrind/badge.svg)
+
 
 
