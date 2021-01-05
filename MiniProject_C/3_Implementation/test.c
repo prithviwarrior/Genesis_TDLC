@@ -23,7 +23,7 @@ int main()
 {
     UNITY_BEGIN();
     RUN_TEST(test_add);
-    RUN_TEST(test_add_fail);
+    //RUN_TEST(test_add_fail);
     RUN_TEST(test_sub);
     return UNITY_END();
 }
