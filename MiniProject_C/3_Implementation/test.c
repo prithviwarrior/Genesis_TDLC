@@ -5,7 +5,7 @@
 void setUp(){}
 void tearDown(){}
 
-void add()
+void test_add()
 {
     TEST_ASSERT_EQUAL(10, add(5,5));
 }
@@ -13,6 +13,6 @@ void add()
 int main()
 {
     UNITY_BEGIN();
-    RUN_TEST(add);
+    RUN_TEST(test_add);
     return UNITY_END();
 }
