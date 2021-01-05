@@ -8,6 +8,7 @@ void tearDown(){}
 void test_add()
 {
     TEST_ASSERT_EQUAL(10, add(5,5));
+    TEST_ASSERT_EQUAL(1, add(5,5));
 }
 void test_sub()
 {
