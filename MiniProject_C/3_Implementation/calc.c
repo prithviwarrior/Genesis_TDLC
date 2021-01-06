@@ -15,6 +15,11 @@ int multi(int a, int b)
 	return a*b;
 }
 
+int div(int a, int b)
+{
+	return a/b;
+}
+
 int dollar(int a)
 {
     return a*65;
@@ -25,6 +30,20 @@ int rupees(int a)
 	return a/65;
 }
 
+int square(int a)
+{
+	return a*a;
+}
+
+int cube(int a)
+{
+	return a*a*a;
+}
+
+int sqroot(int a)
+{
+	return sqrt(int(x));
+}
 /*
 int main()
 {
