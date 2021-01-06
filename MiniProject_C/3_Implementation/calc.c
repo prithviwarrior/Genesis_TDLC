@@ -42,7 +42,7 @@ int cube(int a)
 
 int sqroot(int a)
 {
-	return sqrt(int(x));
+	return sqrt((a));
 }
 /*
 int main()
