@@ -19,6 +19,21 @@ void test_sub()
     TEST_ASSERT_EQUAL(10, sub(20,10));
 }
 
+void test_square()
+{
+    TEST_ASSERT_EQUAL(16, square(4));
+}
+
+void test_cube()
+{
+    TEST_ASSERT_EQUAL(8, square(2));
+}
+
+void test_sqroot()
+{
+    TEST_ASSERT_EQUAL(5, sqroot(25));
+}
+
 int main()
 {
     UNITY_BEGIN();
