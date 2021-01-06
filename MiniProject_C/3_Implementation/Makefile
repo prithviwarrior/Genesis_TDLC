@@ -8,7 +8,7 @@ INC = calc.h\
 #.PHONY : all
 
 all: ${SRC}
-	gcc ${SRC} ${INC} -o all.out
+	gcc ${SRC} ${INC} -o all.out -lm
 
 run:
 	./all.out
