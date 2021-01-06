@@ -26,7 +26,7 @@ void test_square()
 
 void test_cube()
 {
-    TEST_ASSERT_EQUAL(8, square(2));
+    TEST_ASSERT_EQUAL(8, cube(2));
 }
 
 void test_sqroot()
