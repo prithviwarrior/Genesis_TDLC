@@ -31,7 +31,7 @@ void test_cube()
 
 void test_sqroot()
 {
-    TEST_ASSERT_EQUAL(5, sqroot(25));
+    TEST_ASSERT_EQUAL(4, sqroot(25));
 }
 
 int test_Dec()
