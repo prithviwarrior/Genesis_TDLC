@@ -36,7 +36,7 @@ void test_sqroot()
 
 int test_Dec()
 {
-    TEST_ASSERT_EQUAL(26,Dec("1a"));
+    TEST_ASSERT_EQUAL(25,Dec("1a"));
 }
 
 
