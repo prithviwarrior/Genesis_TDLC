@@ -34,6 +34,12 @@ void test_sqroot()
     TEST_ASSERT_EQUAL(5, sqroot(25));
 }
 
+int test_Dec()
+{
+    TEST_ASSERT_EQUAL(26,Dec("1a"));
+}
+
+
 int main()
 {
     UNITY_BEGIN();
@@ -42,3 +48,4 @@ int main()
     RUN_TEST(test_sub);
     return UNITY_END();
 }
+
