@@ -31,7 +31,7 @@ void test_cube()
 
 void test_sqroot()
 {
-    TEST_ASSERT_EQUAL(4, sqroot(25));
+    TEST_ASSERT_EQUAL(5, sqroot(25));
 }
 
 int test_Dec()
@@ -46,6 +46,10 @@ int main()
     RUN_TEST(test_add);
     //RUN_TEST(test_add_fail);
     RUN_TEST(test_sub);
+    RUN_TEST(test_square);
+    RUN_TEST(test_cube);
+    RUN_TEST(test_sqroot);
+    RUN_TEST(test_Dec);
     return UNITY_END();
 }
 
